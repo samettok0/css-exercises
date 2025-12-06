@@ -1,1 +1,24 @@
 /* Add CSS Styling */
+
+.cls1 {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color: rgb(252, 168, 168);
+}
+
+#first {
+    color: rgb(3, 3, 255);
+    font-size: 36px;
+}
+
+.cls1.cls2 {
+    font-size: 24px;
+}
+
+#second {
+    background-color: rgb(28, 255, 28);
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+

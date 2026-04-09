@@ -24,6 +24,71 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mid {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  min-width: 300px;
+  padding: 16px;
+}
+
+.cards {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-content: stretch;
+  gap: 32px;
+  padding: 48px;
+}
+
+.card {
+  padding: 20px;
+  width: 300px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+a:hover {
+  color: #99c8f8;
+}
+
+.header,
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  justify-content: center;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
 }
